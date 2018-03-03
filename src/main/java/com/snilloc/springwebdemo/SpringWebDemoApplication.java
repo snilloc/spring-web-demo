@@ -1,12 +1,12 @@
-package com.snilloc.demo.demo;
+package com.snilloc.springwebdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringWebDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringWebDemoApplication.class, args);
 	}
 }
