@@ -11,22 +11,15 @@ public class Publisher {
     private long id;
     private String name;
     private String address;
-//    private Book book;
 
-//    private Set<Book> bookSet = new HashSet<>();
+    public Publisher() {
+
+    }
+
     public Publisher(String name, String address) {
         this.name = name;
         this.address = address;
     }
-
-    /*
-    public Book getBook() {
-        return book;
-    }
-
-    public void setBook(Book book) {
-        this.book = book;
-    } */
 
     public long getId() {
         return id;

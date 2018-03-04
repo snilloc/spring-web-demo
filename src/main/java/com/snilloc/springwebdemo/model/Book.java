@@ -26,10 +26,14 @@ public class Book {
 //    @OneToOne
 //    @JoinTable(name = "book_publisher", joinColumns = @JoinColumn(name = "book_id"), inverseJoinColumns = @JoinColumn(name = "publisher_id"))
 
+    public Book() {
+
+    }
 
     public Book(String title, String isbn, Publisher publisher) {
         this.title = title;
         this.isbn = isbn;
+        this.publisher = publisher;
     }
 
     public Long getId() {
